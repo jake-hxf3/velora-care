@@ -87,7 +87,7 @@ ul {
 
 /* ---Hero Section--- */
 #hero {
-   margin-bottom: 5px;
+   margin-bottom: 50px;
 }
 
 .hero-clip {
@@ -95,6 +95,13 @@ ul {
    grid-row: 1/1;
    display: none;
 }
+
+   /* ---Intro Section--- */
+   #hero-intro p {
+      font-size: 16px;
+      line-height: 25px;
+      margin: 25px 7px 0;
+   }
    /* Image Carousel */
 #carousel {
    padding: 0;
@@ -130,17 +137,6 @@ ul {
       50%{opacity: 0;}
       100%{opacity: 1; transform: translateX(0px);}
    }*/
-
-/* ---Intro Section--- */
-#hero-intro {
-   margin-bottom: 50px;
-}
-
-#hero-intro p {
-   font-size: 16px;
-   line-height: 25px;
-   margin: 20px 7px 0;
-}
 
 
 /* ---Products Section--- */
