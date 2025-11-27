@@ -2,10 +2,190 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>VeloraCare - Homepage</title>
 </head>
 <body>
-    
+    <div id="mobile-outline">
+        <h1 class="hidden">VeloraCare - Get Your Medical Supplies</h1>
+        <header class="grid-con">
+            <h2 class="hidden">Main Navigation</h2>
+            <nav class="col-span-full" id="main-nav">
+                <ul id="coll-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="col-start-2 col-end-4" id="main-logo">
+                <a href="index.html"><img src="images/logo.svg" alt="Main Logo of VeloraCare"></a>
+            </div>
+        </header>
+
+        <main>
+            <section class="grid-con" id="hero">
+                <h2 class="hidden">Main Hero</h2>
+                <!--<img src="images/hp-hero-01.jpg" class="col-span-full hero-clip" alt="A doctor with a clipboard"> -->
+
+                <form class="grid-con" id="carousel">
+                    <h3 class="hidden">Image Carousel</h3>
+                    <input type="radio" id="hp-01" checked="checked" name="carousel">
+                    <label for="hp-01" class="col-span-full">
+                        <img src="images/hp-hero-01.jpg" class="hero-clip" alt="A doctor with a clipboard">
+                    </label>
+
+                    <input type="radio" id="hp-02" name="carousel">
+                    <label for="hp-02" class="col-span-full">
+                        <img src="images/hp-hero-02.jpg" class="hero-clip" alt="A stethoscope on a spreadsheet book">
+                    </label>
+
+                    <input type="radio" id="hp-03" name="carousel">
+                    <label for="hp-03" class="col-span-full">
+                        <img src="images/hp-hero-03.jpg" class="hero-clip" alt="Dental equipments">
+                    </label>
+
+                    <input type="radio" id="hp-04" name="carousel">
+                    <label for="hp-04" class="col-span-full">
+                        <img src="images/hp-hero-04.jpg" class="hero-clip" alt="Hands holding a thermometer">
+                    </label>                    
+                </form>
+            </section>
+            
+            <section id="hero-intro" class="grid-con">
+                <h2 class="hidden">Introduction</h2>
+                <p class="col-span-full">Discover a seamless shopping experience for all your medical supply needs at <span class="brand-name">VeloraCare</span>.</p>
+                <p class="col-span-full">We stock a vast inventory of products, ranging from everyday essentials to specialized equipment, all available online for your convenience. Skip the hassle of physical stores and find exactly what you need quickly and efficiently, with fast shipping directly to your door.</p>
+                <p class="col-span-full ita">"Innovate. Heal. Succeed. Wunderbar"</p>
+            </section>
+
+            <section id="products">
+                <h2>Featured & New Products</h2>
+                <ul class="grid-con">
+                    <li class="col-span-2 product-item">
+                        <a href="#" class="blocklink">
+                            <img src="images/hp-product-01.png" alt="a first aid kit">
+                            <p>First Aid Kits</p>
+                        </a>
+                    </li>
+                    <li class="col-span-2 product-item">
+                        <a href="#" class="blocklink">
+                            <img src="images/hp-product-02.png" alt="a stethoscope">
+                            <p>Stethoscopes</p>
+                        </a>
+                    </li>
+                    <li class="col-span-2 product-item">
+                        <a href="#" class="blocklink">
+                            <img src="images/hp-product-03.png" alt="a gas mask">
+                            <p>Gas Masks</p>                            
+                        </a>
+                    </li>
+                    <li class="col-span-2 product-item">
+                        <a href="#" class="blocklink">
+                            <img src="images/hp-product-04.png" alt="a ventilator machine">
+                            <p>Ventilators</p>                            
+                        </a>
+
+                    </li>
+                </ul>
+            </section>
+
+            <section id="reviews">
+                <h2>Customer Reviews</h2>
+                <article class="grid-con review-item">
+                    <div class="col-span-1 review-pfp">
+                        <a href="#"><img src="images/hp-review-1.png" alt="a funny man in suit"></a>
+                        <h3>Mike Jr.</h3>
+                    </div>
+                    <div class="col-span-3 review-text">
+                        <p>Remarkable performance! Your ventilators are certainly a must have for our hospital. The reliability and ease of use allowed us to stabilize a patient quickly when every second counted.</p>
+                    </div>                    
+                </article>
+
+                <article class="grid-con review-item">
+                    <div class="col-span-1 review-pfp">
+                        <a href="#"><img src="images/hp-review-2.png" alt="a cartoon moose surgeon with a bag of blood"></a>
+                        <h3>Lumpy</h3>
+                    </div>
+                    <div class="col-span-3 review-text">
+                        <p>I've successfully replaced my patient's heart with a whale's heart, thanks to your neat-o equipments. He was so satisfied, he promised to never come back. Gotta get a new pair of defibrillators for our next lobotomy!</p>
+                    </div>                    
+                </article>        
+                
+                <article class="grid-con review-item">
+                    <div class="col-span-1 review-pfp">
+                        <a href="#"><img src="images/hp-review-3.png" alt="a doctor dressed in superhero costume"></a>
+                        <h3>Kent</h3>
+                    </div>
+                    <div class="col-span-3 review-text">
+                        <p>When duty calls, reliability is paramount. Your first aid kit provides heroic levels of support, ensuring safety in even the most challenging environments.<br>Truly a life-saver! <span class="brand-name">VeloraCare</span> has become my supply sidekick from now on.</p>
+                    </div>                    
+                </article>   
+                
+            </section>
+        </main>
+
+        <footer>
+            <section id="main-footer" class="grid-con">
+                <h2 class="hidden">Main Footer</h2>
+                <div class="col-span-full"  id="main-footer-contact-info">                      
+                    <h3 id="footer-name">VeloraCare Medical Supplies GmbH</h3>
+                    <p>222 Duhastmich Rd,<br>
+                        Bruhl, Rhineland, Germany, <br>
+                        DHB 420
+                    </p>
+                    <p>
+                        Email: info[at]velora.de
+                    </p>
+                </div>
+                <details class="det col-span-full">
+                    <summary class="footer-links">
+                        <h3>Quick Links</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon"><path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"></path></svg>
+                    </summary>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </details>
+
+                <details class="det col-span-full">
+                    <summary class="footer-links">
+                        <h3>Follow Us</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon"><path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"></path></svg>
+                    </summary>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">X/Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </details>
+
+                <section class="col-span-full" id="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Sign up for exclusive offers, events and more</p>
+                    <form action="get" id="email-form">
+                        <label class="hidden" for="email">Email Address:</label>
+                        <input type="text" id="email" name="fname" placeholder="Your Email">
+                        <input type="submit" value="➔">
+                    </form>                    
+                </section>                
+                
+                <div class="col-start-2 col-end-4">
+                    <a href="index.html"><img src="images/logo.svg" alt="footer logo of VeloraCare"></a>
+                </div>
+
+                <p class="col-span-full copyrite">&copy; 2025 VeloraCare</p>
+            </section>
+
+        </footer>
+
+    </div>
+
 </body>
 </html>

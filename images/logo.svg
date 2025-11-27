@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 348.44 91.81">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: Montserrat-Light, Montserrat;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-5, .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        fill: #6bbe45;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        stroke-width: 0px;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-13 {
+        fill: #ef3e23;
+        font-size: 48px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-9" x="8.56" y="24.82" width="30.61" height="58.7"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-9" x="39.17" y="24.82" width="30.61" height="58.7"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <polygon class="cls-8" points="80.24 83.52 0 83.52 0 22.62 40.12 0 80.24 22.62 80.24 83.52"/>
+        <g>
+          <g id="_Mirror_Repeat_" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+            <g class="cls-12">
+              <path class="cls-10" d="M39.28,38.72c-.8-7.49-8.09-13.89-15.79-13.89-8.24,0-14.92,6.68-14.92,14.92s7.29,12.84,13.07,18.71c7.77,7.89,14.42,16.37,17.74,25.06"/>
+            </g>
+          </g>
+          <g id="_Mirror_Repeat_-2" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+            <g class="cls-11">
+              <path class="cls-10" d="M39.06,38.72c.8-7.49,8.09-13.89,15.79-13.89,8.24,0,14.92,6.68,14.92,14.92s-7.29,12.84-13.07,18.71c-7.77,7.89-14.42,16.37-17.74,25.06"/>
+            </g>
+          </g>
+        </g>
+        <rect class="cls-8" x="35.58" y="28.77" width="6.73" height="54.75"/>
+        <rect class="cls-8" x="35.58" y="12.02" width="6.73" height="65.52" transform="translate(-5.84 83.72) rotate(-90)"/>
+      </g>
+      <text class="cls-13" transform="translate(96.1 70.07)"><tspan class="cls-4" x="0" y="0">V</tspan><tspan class="cls-3" x="29.14" y="0">elo</tspan><tspan class="cls-1" x="96.48" y="0">r</tspan><tspan class="cls-2" x="112.37" y="0">a</tspan><tspan class="cls-7" x="139.15" y="0">C</tspan><tspan class="cls-5" x="172.17" y="0">a</tspan><tspan class="cls-6" x="200.11" y="0">r</tspan><tspan class="cls-5" x="218.59" y="0">e</tspan></text>
+    </g>
+  </g>
+</svg>
