@@ -1,7 +1,7 @@
-# Project Name
-![insert alt text](images/example.jpg)
+# Velora Care
+![Velora Care logo](images/logo.svg)
 
-This is a project about [insert topic].
+This is a project for a health supply website named VeloraCare.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
