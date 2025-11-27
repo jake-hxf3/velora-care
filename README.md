@@ -1,7 +1,7 @@
 # Velora Care
 ![Velora Care logo](images/logo.svg)
 
-This is a project for a health supply website named VeloraCare.
+This is a website project for a health & medical supply company named VeloraCare.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
