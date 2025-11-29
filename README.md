@@ -6,7 +6,7 @@ This is a website project for a health & medical supply company named VeloraCare
 ## Installation 💻
 No installation required, simply download the zip file and extract.
 ## Usage
-Open index.html in the browser of your choice and watch our debate.
+Open index.html in the browser of your choice and see the website.
 
 ## Contributing 
 1. Fork it!
